@@ -36,3 +36,16 @@ body {
 
 }
 
+button {
+    color: white;
+    border-radius: 100px;
+    padding: 14px;
+    background-color: rgb(39, 114, 226);
+    border: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(68, 130, 223);
+}
