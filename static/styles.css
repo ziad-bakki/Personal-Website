@@ -67,3 +67,13 @@ button:hover {
   h3 {
     font-weight: 400;
   }
+
+
+  .iconhover {
+    transition: scale 0.3s;
+
+  }
+
+  .iconhover:hover {
+    scale: 1.2;
+  }
