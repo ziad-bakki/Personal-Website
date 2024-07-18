@@ -53,7 +53,9 @@ button:hover {
 
 .bigbubble {
   
-    width: 75vh;
+    max-width: 75vh;
+    max-height: auto;
+    height: 21vh;
     padding-bottom: 2%;
     display: inline-block;
     border-radius: 10px;
