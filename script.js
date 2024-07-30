@@ -41,3 +41,20 @@ function showSlide(n) {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
 }
+
+
+// script.js
+// script.js
+window.onload = function() {
+    setTimeout(() => {
+        const elements = document.getElementsByClassName('bigbubble');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].classList.add('show');
+        }
+        document.getElementById('animatedElement').classList.add('show');
+    }, 500); // Optional delay before starting the animation
+};
+
+
+
+

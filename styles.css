@@ -65,7 +65,13 @@ button:hover {
     background-color: rgb(50, 50, 54);
     /* transition: background-color 0.3s ease-in; */
     /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
   }
+
+.bigbubble.show {
+    opacity: 1;
+}
 
   .arranger1 {
     display: flex;
@@ -82,7 +88,7 @@ button:hover {
 
   h3 {
     font-weight: 400;
-  }
+}
 
 
   .iconhover {
@@ -183,4 +189,14 @@ button:hover {
   .headercontainer {
     display: flex;
     flex-direction: column;
+  }
+
+
+  #animatedElement {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  #animatedElement.show {
+    opacity: 1;
   }
